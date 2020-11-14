@@ -13,8 +13,8 @@ mapper:
 spring:
  datasource:
    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
-   driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
-   url: jdbc:mysql://localhost:3306/testmis?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong # 数据库连接地址
+   driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
+   url: jdbc:mysql://localhost:3306/testmis81?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong # 数据库连接地址
    username: root   # 数据库用户名
    password: a    # 数据库连接密码
  application:
@@ -59,8 +59,8 @@ mapper:
 spring:
  datasource:
    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
-   driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
-   url: jdbc:mysql://localhost:3306/testmis?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong # 数据库连接地址
+   driver-class-name: com.mysql.jdbc.Driver # 配置MySQL的驱动程序类
+   url: jdbc:mysql://localhost:3306/testmis81?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Hongkong # 数据库连接地址
    username: root   # 数据库用户名
    password: a    # 数据库连接密码
  application:
